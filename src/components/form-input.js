@@ -40,7 +40,7 @@ const FormInput = ({ updateNotes }) => {
         name='note'
         required
       />
-      <Input type='submit' id='submit_form' name='submit_form' value='Create' />
+      <Input style={{color: "white"}} type='submit' id='submit_form' name='submit_form' value='Create' />
     </form>
   );
 };
